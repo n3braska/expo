@@ -13,7 +13,7 @@ collections:
       name: "pages"
       files:
       - label: "Розклад"
-        name: "timetable"
+       name: "timetable"
         file: "_data/table.yml"
         fields:
         - label: День
