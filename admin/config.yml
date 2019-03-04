@@ -12,17 +12,7 @@ collections:
     - label: "Всі Сторінки"
       name: "pages"
       files:
-          - label: "Головне Меню"
-            name: "navbar"
-            file: "_data/navigation.yml"
-            fields:
-                - label: Елемент Меню
-                  name: navbar
-                  widget: list
-                  fields:
-                      - {label: Назва, name: name, widget: string}
-                      - {label: Лінк, name: link, widget: string}
-          - label: "Розклад"
+      - label: "Розклад"
             name: "timetable"
             file: "_data/table.yml"
             fields:
@@ -39,4 +29,16 @@ collections:
                       - {label: Час3, name: time1, widget: string}
                       - {label: Подія3, name: event3, widget: string}
                       - {label: Захід, name: occasion, widget: string}
+        
+
+      - label: "Головне Меню"
+            name: "navbar"
+            file: "_data/navigation.yml"
+            fields:
+                - label: Елемент Меню
+                  name: navbar
+                  widget: list
+                  fields:
+                      - {label: Назва, name: name, widget: string}
+                      - {label: Лінк, name: link, widget: string}
         
