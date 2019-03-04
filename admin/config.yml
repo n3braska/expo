@@ -17,18 +17,18 @@ collections:
         file: "_data/table.yml"
         fields:
         - label: День
-        name: day
+         name: day
         widget: list
         fields:
-        - {label: День, name: day, widget: string}
-        - {label: Місяць, name: month, widget: string}
-        - {label: Час1, name: time1, widget: string}
-        - {label: Подія1, name: event1, widget: string}
-        - {label: Час2, name: time1, widget: string}
-        - {label: Подія2, name: event2, widget: string}
-        - {label: Час3, name: time1, widget: string}
-        - {label: Подія3, name: event3, widget: string}
-        - {label: Захід, name: occasion, widget: string}
+         - {label: День, name: day, widget: string}
+         - {label: Місяць, name: month, widget: string}
+         - {label: Час1, name: time1, widget: string}
+         - {label: Подія1, name: event1, widget: string}
+         - {label: Час2, name: time1, widget: string}
+         - {label: Подія2, name: event2, widget: string}
+         - {label: Час3, name: time1, widget: string}
+         - {label: Подія3, name: event3, widget: string}
+         - {label: Захід, name: occasion, widget: string}
         
 
       - label: "Головне Меню"
