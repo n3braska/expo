@@ -16,8 +16,8 @@ collections:
             name: "timetable"
             file: "_data/table.yml"
             fields:
-                - label: Місяць
-                  name: month
+                - label: День
+                  name: day
                   widget: list
                   fields: 
                       - {label: День, name: day, widget: string}
