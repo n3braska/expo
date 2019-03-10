@@ -31,7 +31,6 @@ collections:
               - label: "День"
                 name: timetable
                 widget: list
-                required: false
                 fields: 
                    - 
                      label: День
@@ -52,21 +51,26 @@ collections:
                    - 
                      label: Час2
                      name: time2
+                     required: false
                      widget: string
                    - 
                      label: Подія2
                      name: event2
+                     required: false
                      widget: string
                    - 
                      label: Час
                      name: time3
+                     required: false
                      widget: string
                    - 
                      label: Подія3
                      name: event3
+                     required: false
                      widget: string
                    - 
                      label: Захід
                      name: occasion
+                     required: false
                      widget: string
                     
