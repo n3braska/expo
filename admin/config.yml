@@ -72,10 +72,6 @@ collections:
                      
           - label: Розклад
             name: timetable
-            file: _data/table.yml
-            fields: 
-              - label: "Розклад на місяць"
-                name: month_timatable_csv
-                widget: file 
-                default: /_data/month_timetable.csv
+            widget: file 
+            default: /_data/month_timetable.csv
                    
