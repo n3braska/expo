@@ -30,6 +30,7 @@ collections:
             fields: 
               - label: "День"
                 name: timetable
+                required: false
                 widget: list
                 fields: 
                    - 
