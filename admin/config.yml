@@ -35,18 +35,22 @@ collections:
                    - 
                      label: День
                      name: day
+                     required: false
                      widget: string
                    - 
                      label: Місяць
                      name: month
+                     required: false
                      widget: string
                    - 
                      label: Час1
                      name: time1
+                     required: false
                      widget: string
                    - 
                      label: Подія1
                      name: event1
+                     required: false
                      widget: string
                    - 
                      label: Час2
