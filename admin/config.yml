@@ -26,7 +26,7 @@ collections:
           
           - label: Розклад
             name: timetable
-            file: _data/table.yml
+            file: _data/table.json
             fields: 
               - label: "День"
                 name: timetable
