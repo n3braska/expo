@@ -32,7 +32,7 @@ collections:
               name: timetable
               fields:
               - label: "Місяць"
-                name: month
+                name: march
                 required: false
                 widget: list
                 fields: 
