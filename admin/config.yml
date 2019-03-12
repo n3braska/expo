@@ -24,15 +24,12 @@ collections:
                       - {label: Лінк, name: link, widget: string}
          
           
-     - label: Розклад
-         name: timetable
-         file: _data/table.yaml
-         fields: 
-            - label: "День"
-              name: timetable
-              fields:
-              - label: "Місяць"
-                name: march
+          - label: Розклад
+            name: timetable
+            file: _data/table.yaml
+            fields: 
+              - label: "День"
+                name: timetable
                 required: false
                 widget: list
                 fields: 
@@ -81,6 +78,4 @@ collections:
                      name: occasion
                      required: false
                      widget: string
-                    
-
                     
