@@ -26,10 +26,10 @@ collections:
           
           - label: Розклад
             name: timetable
-            file: _data/table.json
+            file: _data/table.yaml
             fields: 
               - label: "День"
-                name: timetable
+                name: time
                 required: false
                 widget: list
                 fields: 
